@@ -3,3 +3,53 @@
     padding: 0;
     box-sizing: border-box;
 }
+textarea{
+    border-radius: 10px;
+    width: 80%;
+    height: 30vh;
+    display: block;
+    padding: 1rem;
+    margin: 1rem auto;
+}
+.output{
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1rem auto;
+    width: 80%;
+    height: 30vh;
+    border: 1px solid black;
+}
+h1{
+    text-align: center;
+    padding: 20px;
+    background-color: #fde047;
+    color: #fefce8;
+}
+#btn-translate{
+    cursor: pointer;
+    border: none;
+    border-radius: 36px;
+    padding: 1rem 3rem;
+    font-size: large;
+    font-weight: 600;
+    display: block;
+    margin: auto;
+    background-color: #fde047;
+    color: #fefce8;
+}
+.second-header{
+    text-align: center;
+    background-color: #fef08a;
+    padding: 1rem;
+    margin: 1rem  auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #737373;
+    width: 80%;
+    border-radius: 10px;
+    
+}
+#btn-translate:hover{
+    background-color: #fefce8;
+    color:#fde047 ;
+}
